@@ -1,0 +1,64 @@
+body{
+    background-image: url(hello/images/Opacity-Image-1920-x1080-23\ \(1\).jpg);
+        background-color: aliceblue;
+       
+}
+h1{
+            color: rgb(245, 3, 124);
+            font-size: 40px;
+            text-align: center;
+            width: 100%;
+            
+        }
+        h2{
+            
+            color: white;
+        }
+        select{
+            border: 2px solid coral;
+            border-radius: 50px;
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(255, 57, 120);
+            background-color: azure;
+            padding: 10px 50px;
+
+        }
+        select:hover{
+            background-color: rgba(198, 255, 42, 0.782);
+            color: rgb(255, 0, 0);
+        }
+        .dish{
+            border: 2px solid rgb(22, 22, 22);
+            border-radius: 50px;
+            font-size: 18px;
+            padding: 10px 60px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(21, 3, 100);
+            background-color: yellow;
+            text-decoration: none;
+        }
+        .dish:hover{
+            background-color: rgb(187, 255, 0);
+            color: rgb(255, 255, 255);
+        }
+footer a{
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+  }
+  footer{
+    background-color: skyblue;
+    text-align: center;
+    padding: 20px 0;
+  }
+  footer a:hover{
+    color: yellow;
+  }
+img{
+    width: 200px;
+    height: 150px;
+    
+}

@@ -1,0 +1,36 @@
+h1{
+            text-align: center;
+            color: black;
+            font-weight: 400px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .pay{
+    color: yellow;
+    background-color: coral;
+    padding: 12px 100px;
+    margin: 2px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.pay:hover{
+    background-color: #3bff2a;
+    color: white;
+    
+}
+footer a{
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+  }
+  footer{
+    background-color: skyblue;
+    text-align: center;
+    padding: 20px 0;
+  }
+  footer a:hover{
+    color: yellow;
+  }

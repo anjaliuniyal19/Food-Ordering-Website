@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang=" en" >
+<head>
+    <meta charset=" UTF-8" >
+    <meta http-equiv=" X-UA-Compatible"  content=" IE=edge" >
+    <meta name=" viewport"  content=" width=device-width, initial-scale=1.0" >
+    <link rel=" stylesheet"  href=" style.css" >
+    <title>Your Food Corner | Home</title>
+</head>
+<body>
+    <header>
+        <img src="hello/images/banner.webp" width="100%" height="200px"  alt="">
+        <div  id="text">
+            <h1 class="transition">Your Food Corner</h1>
+            
+            <nav class="navbar">
+                <a href="home.html">Home</a>
+                <a  href="#service">Our Services</a>
+            
+            </nav>
+        </div>
+        <h2 class="col2">Welcome to Your Food Corner
+            </h2>
+            <!-- A button to open the popup form -->
+<button class="open-button" onclick="openForm()">Login/Signup</button>
+
+<div class="form-popup" id="myForm">
+  <form action="" class="form-container">
+    <h1>Login</h1>
+
+    <p>Email <input type="text" placeholder="Enter Email" name="email" required></p>
+
+    
+    <p>Password<input type="password" placeholder="Enter Password" name="psw" required></p>
+
+    <a href="index.html" class="btn" id="loginbtn">Login</a>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+        </header>
+    
+
+    <main>
+        <br>
+        <br>
+           <h2 id="service">Our Services</h2>
+           <div class="imagee">
+        <div class="imagesize">
+              <img class="box image" src="hello/2.png"  >
+              <img class="box image" src="hello/3.png"  >
+            </div>
+        </div>
+        <h3>Delicious | Fast | Secure</h3>
+      
+      </main>
+      
+
+      <div class="footer">
+      <footer>
+          <a href=" #" >FAQ</a>
+          <a href=" #" >Contact Us</a>
+          <a href=" #" >Terms of Use</a>
+          <a href=" #" >Privacy Policy</a>
+          <a href=" #" >Refund Policy</a>
+          
+      </footer>
+</div>
+<script>
+    function openForm() {
+  document.getElementById("myForm").style.display="block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+</body>
+</html>
